@@ -14,24 +14,29 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col flex-wrap overflow-hidden max-w-[1800px] m-auto">
       <Header />
-      <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative sm:mb-0 mb-10">
+      <section className="section1 flex justify-end flex-wrap items-center bg-[#FFFFFF] sm:h-[35em] w-full relative sm:mb-0 mb-10 mt-10">
         <img src="https://i.ibb.co/s2TdyfZ/eurodatasim-Iphone-Blackcropped.png" alt="Iphone Black" className="h-[500px] w-fit absolute left-0 top-28 z-10 -translate-x-32 hidden sm:block"/> 
-      <div className="flex flex-col gap-7 justify-end lg:mr-32 sm:p-5">
-        <h1 className="sm:text-[55px] text-[50px] max-w-[90%] sm:m-0 m-auto">Welcome to EURODATASIM</h1>
-        <p className="sm:max-w-[45em] max-w-[90%] m-auto">Your gateway to seamless connectivity. We specialize in cutting-edge eSIM cards, revolutionizing how you stay connected globally.
-                                    With EURODATASIM, embrace the freedom of traveling without borders, effortlessly switching between carriers and data plans, all within a single device.
-                                    Whether you&apos;re a frequent traveler, digital nomad, or simply seeking hassle-free connectivity, our eSIM solutions cater to your needs. Say goodbye to physical SIM cards and hello to unparalleled convenience.
-                                    Explore our range of eSIM cards today and unlock a world of limitless possibilities with EURODATASIM.
+      <div className="flex flex-col gap-7 justify-end lg:mr-8 sm:p-5 ">
+        <h1 className="sm:text-[55px] text-[50px] max-w-[90%] min-w-[900px] sm:m-0 m-auto">Stay connected with Eurodatasim!</h1>
+        <p className="sm:max-w-[45em] max-w-[90%]">Your ultimate European travel 5G data plans. <br></br><br></br>
+Are you planning a trip to Europe and need a fastspeed 5G data connection?<br></br><br></br>
+Are you planning a trip to Europe and worried about staying connected? Look no further than
+Eurodatasim, your ultimate solution for reliable and affordable mobile 5G data while traveling across
+Europe. Here you can choose from 3 tailored products designed to keep you connected seamlessly
+wherever you go. Just chose your SIM or eSIM and enjoy your holiday. <br></br><br></br>
+Our products are designed to offer seamless connectivity without the hidden data speed throttling
+that many other companies impose after a certain usage limit.
           </p>
       </div>
       </section>
       <section className="section2 flex flex-wrap justify-center bg-[#E9E9E9] sm:h-auto w-full relative">
       <div className="flex flex-col gap-7 justify-center p-5 sm:p-0 text-center ">
-        <h2 className=" m-auto">We <span className="sm:text-[65px] sm:font-light font-medium">revolutionize</span> the business</h2>
-        <p className="sm:max-w-[45em] max-w-[90%] m-auto">We revolutionize the business with EURODATASIM eSIM cards. Unlike traditional SIM cards, our eSIM technology eliminates the need for physical cards, offering unparalleled convenience.
-        Say goodbye to swapping cards or being tied to a single carrier. With EURODATASIM, enjoy seamless global connectivity, effortlessly switch between networks, and manage multiple numbers on a single device.
-        Experience the freedom of travel without borders and the flexibility to choose the best data plans anywhere, anytime.
-        EURODATASIM eSIM cards: the smart choice for modern connectivity, empowering your digital lifestyle.
+        <h2 className=" m-auto font-normal">How it works</h2>
+        <p className="sm:max-w-[45em] max-w-[90%] m-auto">Order Your SIM or eSIM: Choose the plan that best fits your needs and order your SIM card or eSIM
+online.<br></br><br></br>
+Activate Your SIM or eSIM: Follow the simple instructions to activate your SIM card or eSIM upon
+arrival in Europe.<br></br><br></br>
+Stay Connected: Enjoy seamless internet connectivity throughout your trip.
           </p>
       </div>
 
@@ -186,13 +191,11 @@ export default function Home() {
       </section>
       <section id="work" className="section2 flex flex-wrap justify-start items-center bg-gradient-to-b from-[#FBF6F5] bg-[#FDF0ED] sm:h-[35em] w-full relative">
        <img src="https://i.ibb.co/qJFgXTJ/eurodatasim-sim-card-cropped.png" alt="" className="h-[500px] w-fit absolute right-0 bottom-0 -rotate-90  hidden sm:block" />
-      <div className="flex flex-col gap-7 justify-end sm:ml-32 p-5 sm:p-0">
-        <h3>Experts in our services</h3>
-        <p className="max-w-[45em]">Count on EURODATASIM, experts in our services, for seamless connectivity.
-          Within our operating hours of 10-18 on weekdays and promptly on weekends, receive a QR code within an hour. Scan it and instantly connect your phone anywhere.
-          Choose from our packages: 200GB or 400GB data, with an additional 16GB in Zone 1 countries. Say farewell to data limits and hello to limitless possibilities.
-          Whether you&apos;re traveling or at home, EURODATASIM ensures you&apos;re always connected.
-          Experience the ease and reliability of EURODATASIM, your ultimate solution for global connectivity.
+      <div className="flex flex-col gap-7 justify-end sm:ml-8 p-5 sm:p-0">
+        <h3>Beware of hidden data speed <br></br>throttling!</h3>
+        <p className="max-w-[45em]">Many companies hide the fact that their data speed is throttled after you reach a certain usage limit.
+With Eurodatasim, what you see is what you get. We offer true high-speed 5G data with no hidden
+throttling, ensuring you get the best internet experience throughout your travels.
           </p>
           
           <button onClick={() => setModal(true)} className="bg-[#E9E9E9] w-fit p-3 rounded-md text-[#939191] font-bold hover:scale-110 transition-all">What countries is zone 1?</button>
@@ -219,13 +222,10 @@ export default function Home() {
       </section>
       <section id="connection" className="section2 flex flex-wrap justify-end items-center bg-[#CACACA] sm:h-[35em] w-full relative">
       <img src="https://i.ibb.co/bJ1Lkrt/Iphone-headphones-eurodatasim.png" alt="" className="h-[500px] w-fit absolute ml-5 translate-y-24 left-0 bottom-0 -translate-x-40 hidden sm:block" />
-      <div className="flex flex-col gap-7 justify-end sm:mr-32 p-5 sm:p-0">
-        <h3>A safe connection - everytime</h3>
-        <p className="max-w-[45em]">A safe connection - every time. EURODATASIM offers unparalleled reliability with our eSIM cards.
-        Experience connectivity wherever you go, without compromising on security. Our eSIM technology ensures a stable and dependable connection, eliminating the risk of lost signals or dropped calls.
-        Trust in EURODATASIM to keep you connected, whether you&apos;re traveling abroad or in your hometown. With our commitment to quality and reliability, you can rest assured that your connection is always secure.
-        Say goodbye to connectivity worries and hello to peace of mind with EURODATASIM eSIM cards.
-        Stay connected with confidence, wherever life takes you.
+      <div className="flex flex-col gap-7 justify-end sm:mr-8 p-5 sm:p-0">
+        <h3>Join thousands of satisfied travellers</h3>
+        <p className="max-w-[45em]">Don’t just take our word for it. Join thousands of happy customers who have experienced the
+convenience and affordability of Eurodatasim.
           </p>
       </div>
       </section>
